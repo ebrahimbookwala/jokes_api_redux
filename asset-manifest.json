@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jokes_api_redux/static/css/main.74c91762.chunk.css",
+    "main.js": "/jokes_api_redux/static/js/main.f9b45a30.chunk.js",
+    "main.js.map": "/jokes_api_redux/static/js/main.f9b45a30.chunk.js.map",
+    "runtime-main.js": "/jokes_api_redux/static/js/runtime-main.de18f86b.js",
+    "runtime-main.js.map": "/jokes_api_redux/static/js/runtime-main.de18f86b.js.map",
+    "static/js/2.8e7deeb8.chunk.js": "/jokes_api_redux/static/js/2.8e7deeb8.chunk.js",
+    "static/js/2.8e7deeb8.chunk.js.map": "/jokes_api_redux/static/js/2.8e7deeb8.chunk.js.map",
+    "index.html": "/jokes_api_redux/index.html",
+    "static/css/main.74c91762.chunk.css.map": "/jokes_api_redux/static/css/main.74c91762.chunk.css.map",
+    "static/js/2.8e7deeb8.chunk.js.LICENSE.txt": "/jokes_api_redux/static/js/2.8e7deeb8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de18f86b.js",
+    "static/js/2.8e7deeb8.chunk.js",
+    "static/css/main.74c91762.chunk.css",
+    "static/js/main.f9b45a30.chunk.js"
+  ]
+}
