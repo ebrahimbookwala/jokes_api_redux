@@ -1,39 +1,80 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+	.App-logo {
+		animation: App-logo-float infinite 3s ease-in-out;
+	}
 }
 
 .App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
 }
 
 .App-link {
-  color: rgb(112, 76, 182);
+	color: rgb(112, 76, 182);
 }
 
 @keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	border: 1px solid black;
+	width: 40%;
+	margin: 1em auto;
+	padding: 1em 1.5em;
+	border-radius: 10px;
+	font-size: 1.5rem;
+}
+
+.joke-list-item {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+}
+
+.joke-text {
+	width: 90%;
+}
+
+button {
+	padding: 10px;
+	font-size: 1.5rem;
+	width: 10%;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 1em;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
 }
