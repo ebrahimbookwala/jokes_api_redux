@@ -5,7 +5,7 @@ const initialState = { status: "idle", jokes: [], error: "" };
 export const fetchJokes = createAsyncThunk(
 	"jokesData/fetchJokes",
 	async (number) => {
-		const data = await fetch(`http://api.icndb.com/jokes/random/${number}`);
+		const data = await fetch(`https://api.icndb.com/jokes/random/${number}`);
 		const jokesData = await data.json();
 		return jokesData.value;
 	}
@@ -14,7 +14,7 @@ export const fetchJokes = createAsyncThunk(
 export const deleteAndAddJoke = createAsyncThunk(
 	"jokesData/deleteAndAddJoke",
 	async (id, { dispatch }) => {
-		const data = await fetch(`http://api.icndb.com/jokes/random/1`);
+		const data = await fetch(`https://api.icndb.com/jokes/random/1`);
 		const jokesData = await data.json();
 		dispatch(deleteJoke({ jokesData, id }));
 	}
@@ -45,7 +45,7 @@ const jokesSlice = createSlice({
 		},
 		[fetchJokes.rejected]: (state, action) => {
 			state.status = "failed";
-			state.error = action.payload.type;
+			state.error = action.payload.value;
 		},
 	},
 });
